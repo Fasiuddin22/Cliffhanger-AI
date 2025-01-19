@@ -79,16 +79,16 @@ pip install -r requirements.txt
 ### Required Libraries
 The project uses the following Python libraries:
 
-pyttsx3 – Text-to-speech functionality.
-speech_recognition – Voice recognition for taking commands.
-pyautogui – Screen automation and screenshot capabilities.
-wikipedia – Fetches summaries from Wikipedia.
-pywhatkit – For sending WhatsApp messages and emails.
-tkinter – GUI for displaying screenshots.
-Pillow – Image processing.
-openai – For AI chat integration and text generation.
-mtranslate – Language translation.
-plyer – Desktop notifications.
+pyttsx3 – Text-to-speech functionality. <br>
+speech_recognition – Voice recognition for taking commands. <br>
+pyautogui – Screen automation and screenshot capabilities. <br>
+wikipedia – Fetches summaries from Wikipedia. <br>
+pywhatkit – For sending WhatsApp messages and emails. <br>
+tkinter – GUI for displaying screenshots. <br>
+Pillow – Image processing. <br>
+openai – For AI chat integration and text generation. <br>
+mtranslate – Language translation. <br>
+plyer – Desktop notifications. <br>
 
 ### Setup
 
@@ -114,10 +114,10 @@ Add your credentials:
 
 Replace the placeholders in the script for:
 
-OpenAI API key
-Gmail App Password
-Hugging Face token (if using image generation APIs).
-cohere token
+OpenAI API key <br>
+Gmail App Password <br>
+Hugging Face token (if using image generation APIs). <br>
+cohere token <br>
 
 
 
@@ -127,26 +127,28 @@ cohere token
 ## Usage
 
 Run the program:
+```bash
 python main.py
+```
 
 
 Interact with Cliffhanger AI through voice commands or text inputs.
-Example commands:
+**Example commands:**
 
-"What is the time?"
-"Add a new task: Buy groceries."
-"Send a WhatsApp message."
-"Search Wikipedia about Python programming."
-"Generate an image of a futuristic city."
+"What is the time?" <br>
+"Add a new task: Buy groceries." <br>
+"Send a WhatsApp message." <br>
+"Search Wikipedia about Python programming." <br>
+"Generate an image of a futuristic city." <br>
 
 
 
 
 ## Customizing the Code
 
-Email Automation:
+**Email Automation:**
 Update your Gmail credentials and app password in the send_email() function.
-API Integration:
+**API Integration:**
 Replace the placeholders for OpenAI and Hugging Face API keys in the main.py file.
 
 
