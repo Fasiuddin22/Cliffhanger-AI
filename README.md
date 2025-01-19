@@ -5,7 +5,7 @@ Cliffhanger AI is a personal AI-powered assistant inspired by J.A.R.V.I.S., equi
 ## Features
 
 
-####**Voice Recognition:**
+####Voice Recognition:
 
 Processes spoken commands using the speech_recognition library.
 Translates commands dynamically for better language support.
