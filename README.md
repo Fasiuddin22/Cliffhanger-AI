@@ -1,54 +1,57 @@
-# Cliffhanger-AI
+
 # Cliffhanger AI
 Cliffhanger AI is a personal AI-powered assistant inspired by J.A.R.V.I.S., equipped with features like voice recognition, task automation, natural language processing, and image generation. This Python-based assistant leverages APIs such as OpenAI, Hugging Face, and pywhatkit to create a seamless interactive experience.
 
 ## Features
 
 
-**Voice Recognition:**
+####**Voice Recognition:**
 
 Processes spoken commands using the speech_recognition library.
 Translates commands dynamically for better language support.
 
 
 
-**Task Management:**
+####**Task Management:**
 
 Add, read, and notify about daily tasks using simple voice commands.
 
 
 
-**Web Automation:**
+####**Web Automation:**
 
 Opens YouTube, Google, or performs searches on Bing based on commands.
 
 
 
-**Wikipedia Search:**
+####**Wikipedia Search:**
 
 Provides concise summaries for queried topics.
 
 
 
-**WhatsApp Messaging:**
+####**WhatsApp Messaging:**
 
 Sends scheduled WhatsApp messages using the pywhatkit library.
 
 
 
-**Email Automation:**
+####**Email Automation:**
 
 Sends emails via Gmail with preconfigured credentials and app passwords.
 
 
 
-**AI Chat Integration:**
+####**AI Chat Integration:**
 
 Uses OpenAI's models (or compatible APIs) to respond intelligently to queries.
 Maintains conversational context for ongoing interactions.
 
 
+####**Image Generation:**
 
+Generates images using local models (like Stable Diffusion) or Hugging Face APIs.
+Allows choosing between local or API-based generation dynamically.
 
 
 
@@ -80,15 +83,16 @@ pip install -r requirements.txt
 The project uses the following Python libraries:
 
 pyttsx3 – Text-to-speech functionality. <br>
-speech_recognition – Voice recognition for taking commands. <br>
-pyautogui – Screen automation and screenshot capabilities. <br>
-wikipedia – Fetches summaries from Wikipedia. <br>
-pywhatkit – For sending WhatsApp messages and emails. <br>
-tkinter – GUI for displaying screenshots. <br>
-Pillow – Image processing. <br>
-openai – For AI chat integration and text generation. <br>
-mtranslate – Language translation. <br>
-plyer – Desktop notifications. <br>
+
+**speech_recognition** – Voice recognition for taking commands. <br>
+**pyautogui** – Screen automation and screenshot capabilities. <br>
+**wikipedia** – Fetches summaries from Wikipedia. <br>
+**pywhatkit** – For sending WhatsApp messages and emails. <br>
+**tkinter** – GUI for displaying screenshots. <br>
+**Pillow** – Image processing. <br>
+**openai** – For AI chat integration and text generation. <br>
+**mtranslate** – Language translation. <br>
+**plyer** – Desktop notifications. <br>
 
 ### Setup
 
@@ -115,8 +119,11 @@ Add your credentials:
 Replace the placeholders in the script for:
 
 OpenAI API key <br>
+
 Gmail App Password <br>
+
 Hugging Face token (if using image generation APIs). <br>
+
 cohere token <br>
 
 
@@ -178,7 +185,7 @@ Open a pull request.
 
 
 ## License
-This project is licensed under the [MIT License](https://chatgpt.com/c/LICENSE).
+This project is licensed under the [MIT License](https://mit-license.org/).
 
 ## Contact
 For questions or support, feel free to reach out:
