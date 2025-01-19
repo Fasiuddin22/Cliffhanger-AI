@@ -5,64 +5,61 @@ Cliffhanger AI is a personal AI-powered assistant inspired by J.A.R.V.I.S., equi
 ## Features
 
 
-Voice Recognition:
+**Voice Recognition:**
 
 Processes spoken commands using the speech_recognition library.
 Translates commands dynamically for better language support.
 
 
 
-Task Management:
+**Task Management:**
 
 Add, read, and notify about daily tasks using simple voice commands.
 
 
 
-Web Automation:
+**Web Automation:**
 
 Opens YouTube, Google, or performs searches on Bing based on commands.
 
 
 
-Wikipedia Search:
+**Wikipedia Search:**
 
 Provides concise summaries for queried topics.
 
 
 
-WhatsApp Messaging:
+**WhatsApp Messaging:**
 
 Sends scheduled WhatsApp messages using the pywhatkit library.
 
 
 
-Email Automation:
+**Email Automation:**
 
 Sends emails via Gmail with preconfigured credentials and app passwords.
 
 
 
-AI Chat Integration:
+**AI Chat Integration:**
 
 Uses OpenAI's models (or compatible APIs) to respond intelligently to queries.
 Maintains conversational context for ongoing interactions.
 
 
 
-Image Generation:
-
-Generates images using local models (like Stable Diffusion) or Hugging Face APIs.
-Allows choosing between local or API-based generation dynamically.
 
 
 
-Screenshot Utility:
+
+**Screenshot Utility:**
 
 Captures screenshots of the current screen and saves them locally.
 
 
 
-Text-to-Speech (TTS):
+**Text-to-Speech (TTS):**
 
 Provides real-time audio responses with text translation capabilities.
 
@@ -96,15 +93,21 @@ plyer – Desktop notifications.
 ### Setup
 
 Clone the repository:
+```bash
 git clone https://github.com/Fasiuddin22/Cliffhanger-AI.git
+```
 
 
 Navigate to the project folder:
+```bash
 cd Cliffhanger-AI
+```
 
 
 Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 
 Add your credentials:
@@ -114,6 +117,7 @@ Replace the placeholders in the script for:
 OpenAI API key
 Gmail App Password
 Hugging Face token (if using image generation APIs).
+cohere token
 
 
 
@@ -151,15 +155,21 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 Fork the repository.
 Create a new branch:
+```bash
 git checkout -b feature-name
+```
 
 
-Commit your changes:
+Commit your changes
+```bash
 git commit -m "Add some feature"
+```
 
 
 Push the branch:
+```bash
 git push origin feature-name
+```
 
 
 Open a pull request.
