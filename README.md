@@ -74,8 +74,9 @@ Provides real-time audio responses with text translation capabilities.
 
 Python 3.8 or above
 Install the required Python libraries:
+```bash
 pip install -r requirements.txt
-
+```
 
 
 ### Required Libraries
